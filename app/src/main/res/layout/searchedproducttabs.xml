@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout"
+    android:padding="30dp"
+    android:gravity="left"
+    android:background="#00E6D3">
+
+
+    <TextView
+        android:id="@+id/buyproname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/buyprodisc"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/buyproname"
+        android:text="TextView"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
